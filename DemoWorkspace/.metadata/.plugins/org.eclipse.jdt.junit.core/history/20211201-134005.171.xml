@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="runnerFile" project="UIFramework" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.moneylion.testcases.runnerFile" time="0.287">
+    <testsuite name="Feature to test AboutUS menu options" time="0.287">
+      <testcase name="Check if Offices located in New York, San Francisco, Salt Lake City and Kuala Lumpur are displaying when user clicks on AboutUS menu option" classname="Feature to test AboutUS menu options" time="0.287"/>
+    </testsuite>
+  </testsuite>
+</testrun>

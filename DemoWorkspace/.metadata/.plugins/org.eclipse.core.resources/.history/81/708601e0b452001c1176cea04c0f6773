@@ -1,0 +1,31 @@
+package com.moneylion.pages;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class proxypage {
+	
+	@FindBy(xpath="//input[@id='input']")
+	WebElement Searchbox;
+	
+	WebDriver driver;
+	
+	public proxypage(WebDriver driver)
+	{
+		this.driver =driver;
+		PageFactory.initElements(driver, this);
+	}
+	public void openproxysite()
+	{
+		driver.navigate().to("https://hidester.com/proxy/");
+		Searchbox.sendKeys("moneylion.com");
+		driver.findElement(By.xpath("//input[@value='Surf anonymously']")).click();
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+	}
+
+}

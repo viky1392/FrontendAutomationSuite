@@ -1,0 +1,23 @@
+package com.moneylion.pages;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+
+import com.moneylion.base.base;
+
+public class homePage_ML extends base {
+	
+	@FindBy(xpath="//a[@class='menu-link-blank' and text()='About Us']")
+	WebElement AboutUSMenuOption;
+	
+	WebElement ele =driver.findElement(By.xpath("//a[@class='menu-link-blank' and text()='About Us']"));
+	Actions actions = new Actions(driver);
+	actions.moveToElement(ele).build().perform();
+	driver.findElement(By.xpath("//div[@class='header-sub-menu']//a[text()='About Us']")).click();
+	driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+
+}

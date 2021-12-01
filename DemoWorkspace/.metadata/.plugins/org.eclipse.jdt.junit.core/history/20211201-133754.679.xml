@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="runnerFile" project="UIFramework" tests="5" started="5" failures="0" errors="4" ignored="0">
+  <testsuite name="com.moneylion.testcases.runnerFile" time="0.357">
+    <testsuite name="Feature to test AboutUS menu options #1" time="0.35">
+      <testcase name="Check if Offices located in New York, San Francisco, Salt Lake City and Kuala Lumpur are displaying when user clicks on AboutUS menu option #1" classname="Feature to test AboutUS menu options #1" time="0.276"/>
+      <testcase name="Check if Offices located in New York, San Francisco, Salt Lake City and Kuala Lumpur are displaying when user clicks on AboutUS menu option #2" classname="Feature to test AboutUS menu options #1" time="0.06">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate if office San Francisco are displayed' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("validate if office San Francisco are displayed")
+public void validate_if_office_san_francisco_are_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Check if Offices located in New York, San Francisco, Salt Lake City and Kuala Lumpur are displaying when user clicks on AboutUS menu option #3" classname="Feature to test AboutUS menu options #1" time="0.007">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate if office Salt Lake City are displayed' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("validate if office Salt Lake City are displayed")
+public void validate_if_office_salt_lake_city_are_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Check if Offices located in New York, San Francisco, Salt Lake City and Kuala Lumpur are displaying when user clicks on AboutUS menu option #4" classname="Feature to test AboutUS menu options #1" time="0.007">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate if office Kuala Lumpur are displayed' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("validate if office Kuala Lumpur are displayed")
+public void validate_if_office_kuala_lumpur_are_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+    <testsuite name="Feature to test AboutUS menu options #2" time="0.006">
+      <testcase name="Check if Offices located in New York, San Francisco, Salt Lake City and Kuala Lumpur are displaying when user clicks on AboutUS menu option" classname="Feature to test AboutUS menu options #2" time="0.006">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'validate if office locations are displayed' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("validate if office locations are displayed")
+public void validate_if_office_locations_are_displayed() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

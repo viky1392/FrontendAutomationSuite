@@ -1,0 +1,7 @@
+package com.moneylion.pages;
+
+import com.moneylion.base.base;
+
+public class homePage_ML extends base {
+
+}

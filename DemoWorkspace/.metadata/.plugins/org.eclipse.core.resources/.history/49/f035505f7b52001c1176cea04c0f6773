@@ -1,0 +1,15 @@
+package com.moneylion.testcases;
+
+import org.junit.runner.RunWith;
+import io.cucumber.junit.CucumberOptions;
+import io.cucumber.junit.Cucumber;
+
+public class runnerFile {
+
+	@RunWith(JUNIT4)
+	@CucumberOptions(features="classpath:AboutUS2.feature",glue= {"classpath:runnerFile.java"})
+	public class runner
+	{
+		
+	}
+}

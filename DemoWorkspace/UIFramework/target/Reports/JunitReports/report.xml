@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.459">
+<testcase classname="Feature to test AboutUS menu options" name="Check if Offices located in New York, San Francisco, Salt Lake City and Kuala Lumpur are displaying when user clicks on AboutUS menu option" time="0.162">
+<system-out><![CDATA[Given When user is on moneylion homepage....................................passed
+When user however over AboutUS menu option..................................passed
+And Clicks on AboutUS submenu option........................................passed
+Then User is navigated to AboutUS page......................................passed
+And validate if office locations are displayed..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

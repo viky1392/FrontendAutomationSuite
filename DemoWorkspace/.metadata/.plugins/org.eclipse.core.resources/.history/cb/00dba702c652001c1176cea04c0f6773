@@ -1,0 +1,32 @@
+package com.moneylion.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.moneylion.base.base;
+
+public class aboutUSPage_ML extends base{
+	
+	@FindBy(xpath="//div//h1[text()='Our Mission']")
+	WebElement VerifyPage;
+	
+	@FindBy(xpath="//div//h1[text()='Our Mission']")
+	WebElement VerifyPage2;
+	
+	public void verifyNavigatedPage()
+	{
+		String Pagetext = VerifyPage.getText();
+	}
+	String Pagetext = driver.findElement(By.xpath("//div//h1[text()='Our Mission']")).getText();
+	System.out.println(Pagetext);
+	if(Pagetext.equals("OUR MISSION"))
+	{
+		System.out.println("user is in AboutUS page");
+	}
+	else
+	{
+		System.out.println("user is Not in AboutUS page");
+	}
+
+}

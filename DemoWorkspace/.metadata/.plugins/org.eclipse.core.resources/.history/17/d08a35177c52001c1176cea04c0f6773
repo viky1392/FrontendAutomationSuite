@@ -1,0 +1,40 @@
+package com.moneylion.testcases;
+
+import org.junit.Test;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class aboutUSSteps {
+
+@Test
+@Given("^When user is on moneylion homepage$")
+	public void when_user_is_on_moneylion_homepage() {
+		System.out.println("user is in homepage");
+	   
+	}
+
+	@When("user however over AboutUS menu option")
+	public void user_however_over_about_us_menu_option() {
+	    
+	}
+
+	@When("Clicks on AboutUS submenu option")
+	public void clicks_on_about_us_submenu_option() {
+	   
+	}
+
+	@Then("User is navigated to AboutUS page")
+	public void user_is_navigated_to_about_us_page() {
+	    
+	}
+
+	@And("validate if office New York are displayed")
+	public void validate_if_office_new_york_are_displayed() {
+	   
+	}
+
+	
+}

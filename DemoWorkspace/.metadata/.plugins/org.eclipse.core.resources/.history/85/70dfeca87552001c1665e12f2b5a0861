@@ -1,0 +1,9 @@
+public class runnerFile {
+
+	@RunWith(Cucumber.class)
+	@CucumberOptions(features="src/test/resources/Features",glue= {"com.moneylion.testcases"})
+	public class runner
+	{
+		
+	}
+}

@@ -1,0 +1,14 @@
+package com.moneylion.base;
+
+public class base {
+	
+	public base()
+	{
+		try {
+			prop = new Properties();
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+#Author
+#Date
+#Description
+
+@AllFeatures
+Feature: Feature to test AboutUS menu options
+@functional
+  Scenario: Check if Offices located in New York, San Francisco, Salt Lake City and Kuala Lumpur are displaying when user clicks on AboutUS menu option
+    Given browser is open
+    When user searches for moneylion site 
+    When user however over AboutUS menu option
+    And Clicks on AboutUS submenu option
+    Then User is navigated to AboutUS page
+    And validate if office locations are displayed
+    

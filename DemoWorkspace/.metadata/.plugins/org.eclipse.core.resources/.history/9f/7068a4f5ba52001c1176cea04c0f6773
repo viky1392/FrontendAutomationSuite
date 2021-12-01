@@ -1,0 +1,9 @@
+package com.moneylion.utils;
+
+public class utils {
+	
+	public static long PageloadTimeouts =;
+	public static long Implicitwait =;
+	
+
+}
